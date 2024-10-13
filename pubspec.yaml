@@ -1,0 +1,35 @@
+name: markstatusapp
+description: A new Flutter project
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  timeline_tile: ^2.0.0
+  google_maps_flutter: ^2.0.6
+  intl: ^0.17.0
+  location: ^5.0.0
+  flutter_polyline_points: ^1.0.0
+  geolocator: ^9.0.0
+  permission_handler: ^10.0.0
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+#  google_maps_webservice: ^0.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+#    - assets/location.png
+#    - assets/wade.jpg
+#    - assets/esther.jpg
