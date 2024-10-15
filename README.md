@@ -1,4 +1,4 @@
-# markstatusapp
+# MarkStatusApp
 
 A new Flutter project.
 
